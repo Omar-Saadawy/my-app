@@ -8,8 +8,8 @@ import "./App.css";
 // import Greeting from "./Components/Greeting";
 // import List from "./Components/List";
 import ProductList from "./Components/ProductList";
-import Counter from "./Components/Counter";
-import CounterFc from "./Components/CounterFc";
+// import Counter from "./Components/Counter";
+// import CounterFc from "./Components/CounterFc";
 // import Form from "./Components/Form";
 
 // import Product from "./Components/Product";
