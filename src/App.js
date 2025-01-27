@@ -47,8 +47,8 @@ function App() {
       {/* <List /> */}
       <ProductList />
 
-      <Counter />
-      <CounterFc />
+      {/* <Counter />
+      <CounterFc /> */}
     </>
   );
 }
