@@ -45,6 +45,9 @@ function App() {
       {/* <Product title="product-3" price="60" description="biscott" /> */}
       {/* <Form /> */}
       {/* <List /> */}
+      {/* <ProductList />
+      <ProductList />
+      <ProductList /> */}
       <ProductList />
 
       {/* <Counter />
