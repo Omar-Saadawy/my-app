@@ -4,10 +4,17 @@
 // import Input from "./Components/Input";
 // import { useState } from "react";
 import "./App.css";
+import About from "./Commerce/About";
+import Navbar from "./Commerce/Navbar";
+import ProductDetails from "./Commerce/ProductDetails";
+import ProductListCommerce from "./Commerce/ProductsListCommerce";
+import Slider from "./Commerce/Slider";
+
+import { Routes, Route } from "react-router";
 // import Welcome from "./Components/Welcome";
 // import Greeting from "./Components/Greeting";
 // import List from "./Components/List";
-import ProductList from "./Components/ProductList";
+// import ProductList from "./Components/ProductList";
 // import Counter from "./Components/Counter";
 // import CounterFc from "./Components/CounterFc";
 // import Form from "./Components/Form";
@@ -48,10 +55,24 @@ function App() {
       {/* <ProductList />
       <ProductList />
       <ProductList /> */}
-      <ProductList />
-
+      {/* <ProductList /> */}
+      {/* <div className="container"> Hello </div> */}
       {/* <Counter />
       <CounterFc /> */}
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Slider />
+              <ProductListCommerce />
+            </>
+          }
+        />
+        <Route path="about" element={<About />} />
+        <Route path="product/:productId" element={<ProductDetails />} />
+      </Routes>
     </>
   );
 }
